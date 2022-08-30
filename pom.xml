@@ -22,6 +22,19 @@
   </modules>
 
   <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>maven-webapplication-release</name>
+	      <url>http://54.173.19.71:8081/repository/maven-webapplication-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>maven-webapplication-snapshot</name>
+	      <url>http://54.173.19.71:8081/repository/maven-webapplication-snapshot/</url>
+	    </snapshotRepository>
+	    
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
